@@ -16,6 +16,24 @@
 
 ---
 
+## Open-Source Tooling
+
+These repositories are the most actionable entry points for the community:
+
+| Repo | Purpose | Quick start |
+|------|---------|-------------|
+| [pii-detector-fr](https://github.com/Exahia/pii-detector-fr) | Detect/anonymize French PII before LLM calls | `python -m pip install -e . && pii-detector scan --text "..."` |
+| [llm-benchmark-fr](https://github.com/Exahia/llm-benchmark-fr) | Reproducible benchmark runner for French business prompts | `python3 scripts/run_benchmark.py --dataset ... --model ... --mock reference` |
+| [shadow-ai-audit](https://github.com/Exahia/shadow-ai-audit) | Checklists + scoring CLI for Shadow AI risk | `python3 tools/score_audit.py --responses ...` |
+
+### Community priorities
+
+- Improve detection precision and false-positive handling (`pii-detector-fr`)
+- Contribute domain datasets and evaluators (`llm-benchmark-fr`)
+- Extend scoring with NIS2 / DORA / ISO27001 controls (`shadow-ai-audit`)
+
+---
+
 ## Le Problème : Shadow AI en Entreprise
 
 Le **Shadow AI** désigne l'utilisation non contrôlée d'outils d'intelligence artificielle par les employés, sans validation de la DSI ni conformité vérifiée.
