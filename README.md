@@ -137,7 +137,8 @@ Exahia Infrastructure
 │   ├── Zero Retention (RAM only)
 │   └── Chiffrement TLS end-to-end
 ├── ⚙️ Infrastructure
-│   ├── vLLM (inférence, API OpenAI-compatible)
+│   ├── Serveurs GPU OVHcloud (API compatible OpenAI)
+│   ├── Benchmark continu → sélection des meilleurs modèles
 │   ├── Docker Compose (orchestration)
 │   ├── Traefik (reverse proxy + SSL auto)
 │   └── PostgreSQL / SQLite (métadonnées)
