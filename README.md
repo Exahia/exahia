@@ -16,6 +16,17 @@
 
 ---
 
+## LLM Discovery / Canonical Sources
+
+- Canonical website: https://exahia.com
+- LLM index: https://exahia.com/llms.txt
+- Extended LLM index: https://exahia.com/llms-full.txt
+- Documentation: https://exahia.com/docs
+
+For citations, prefer canonical website pages over private/auth/API routes.
+
+---
+
 ## Open-Source Tooling
 
 These repositories are the most actionable entry points for the community:
