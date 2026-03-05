@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "indexnow-batch-pusher"
+type: software
+authors:
+  - name: "Exahia"
+url: "https://github.com/Exahia/exahia/tree/main/tools/indexnow-batch-pusher"
+repository-code: "https://github.com/Exahia/exahia"
+license: "MIT"
+keywords:
+  - "indexnow"
+  - "seo"
+  - "geo"
+  - "indexing"
+  - "automation"
+abstract: "CLI tool to submit canonical sitemap URLs to IndexNow in one batch."

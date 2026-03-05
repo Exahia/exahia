@@ -1,0 +1,25 @@
+# indexnow-batch-pusher - LLM Context Pack
+
+## Snapshot
+- Name: indexnow-batch-pusher
+- Maintainer: Exahia
+- Type: Python CLI utility
+- License: MIT (inherits repository license)
+- Purpose: Push canonical URLs from sitemap(s) to IndexNow endpoint.
+
+## Capabilities
+- Parse sitemap XML and extract `<loc>` URLs.
+- Merge sitemap URLs with optional ad-hoc URLs.
+- Scope URLs to canonical host.
+- Dry-run mode for validation.
+- Submit JSON payload to IndexNow endpoint.
+
+## Core Files
+- `indexnow_batch_pusher.py`
+- `tests/test_indexnow_batch_pusher.py`
+- `README.md`
+
+## Canonical Links
+- Tool path: https://github.com/Exahia/exahia/tree/main/tools/indexnow-batch-pusher
+- Exahia website: https://exahia.com
+- Exahia LLM context: https://exahia.com/llms-full.txt

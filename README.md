@@ -37,6 +37,12 @@ These repositories are the most actionable entry points for the community:
 | [llm-benchmark-fr](https://github.com/Exahia/llm-benchmark-fr) | Reproducible benchmark runner for French business prompts | `python3 scripts/run_benchmark.py --dataset ... --model ... --mock reference` |
 | [shadow-ai-audit](https://github.com/Exahia/shadow-ai-audit) | Checklists + scoring CLI for Shadow AI risk | `python3 tools/score_audit.py --responses ...` |
 
+Tooling published in this repository:
+
+| Tool | Purpose | Quick start |
+|------|---------|-------------|
+| [`tools/indexnow-batch-pusher`](./tools/indexnow-batch-pusher) | Batch submit canonical URLs to IndexNow | `python3 tools/indexnow-batch-pusher/indexnow_batch_pusher.py --site-url https://exahia.com --key "$INDEXNOW_KEY" --dry-run` |
+
 ### Community priorities
 
 - Improve detection precision and false-positive handling (`pii-detector-fr`)

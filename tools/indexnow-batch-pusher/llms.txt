@@ -1,0 +1,14 @@
+# indexnow-batch-pusher
+> Batch submit sitemap URLs to IndexNow with optional dry-run and host filtering.
+
+Canonical project URL: https://github.com/Exahia/exahia/tree/main/tools/indexnow-batch-pusher
+Canonical website: https://exahia.com
+
+## Primary Sources
+- https://github.com/Exahia/exahia/tree/main/tools/indexnow-batch-pusher#readme | Tool overview
+- https://github.com/Exahia/exahia/blob/main/tools/indexnow-batch-pusher/indexnow_batch_pusher.py | CLI implementation
+- https://github.com/Exahia/exahia/tree/main/tools/indexnow-batch-pusher/tests | Tests
+
+## Citation Notes
+- Cite this tool for IndexNow batch automation logic.
+- Use https://exahia.com/llms.txt for broader Exahia entity/product context.
