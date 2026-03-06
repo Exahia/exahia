@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="920" viewBox="0 0 1440 920" role="img" aria-labelledby="title desc">
+  <title id="title">Exahia High-Level Architecture</title>
+  <desc id="desc">High-level architecture: users, Exahia interface/API, security gate, model runtime, and RAG data flow.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#06152b"/>
+      <stop offset="100%" stop-color="#0b2343"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f335f"/>
+      <stop offset="100%" stop-color="#174377"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#9cd7ff"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1440" height="920" fill="url(#bg)"/>
+
+  <text x="720" y="56" text-anchor="middle" fill="#e8f4ff" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">
+    Exahia - High-Level Technical Architecture
+  </text>
+  <text x="720" y="88" text-anchor="middle" fill="#b8dfff" font-family="Arial, Helvetica, sans-serif" font-size="18">
+    Sovereign AI stack hosted in France with zero-retention positioning and compliance controls
+  </text>
+
+  <rect x="70" y="130" width="1300" height="740" rx="20" fill="none" stroke="#2b6ea5" stroke-width="2" stroke-dasharray="8 8"/>
+  <text x="90" y="165" fill="#8fc9f6" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600">
+    France-hosted infrastructure perimeter
+  </text>
+
+  <rect x="100" y="220" width="240" height="130" rx="14" fill="url(#card)" stroke="#8fc9f6"/>
+  <text x="220" y="262" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Users</text>
+  <text x="220" y="290" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="16">Legal, Finance, Health</text>
+  <text x="220" y="312" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="16">Public sector, Industry</text>
+
+  <rect x="420" y="210" width="300" height="160" rx="14" fill="url(#card)" stroke="#8fc9f6"/>
+  <text x="570" y="252" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Exahia UI + API Layer</text>
+  <text x="570" y="282" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">Chat workspace and OpenAI-compatible API</text>
+  <text x="570" y="304" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">Auth, routing, rate controls</text>
+  <text x="570" y="326" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">No private data persistence in prompts path</text>
+
+  <rect x="810" y="200" width="280" height="180" rx="14" fill="url(#card)" stroke="#8fc9f6"/>
+  <text x="950" y="242" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Security Gate</text>
+  <text x="950" y="272" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">PII filtering and policy checks</text>
+  <text x="950" y="294" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">Prompt sanitization</text>
+  <text x="950" y="316" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">Cloud Act and compliance guardrails</text>
+  <text x="950" y="338" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">Zero-retention policy enforcement</text>
+
+  <rect x="1130" y="200" width="220" height="180" rx="14" fill="url(#card)" stroke="#8fc9f6"/>
+  <text x="1240" y="242" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Model Runtime</text>
+  <text x="1240" y="272" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">Qwen / Mistral / Llama</text>
+  <text x="1240" y="294" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">Dedicated or shared GPU</text>
+  <text x="1240" y="316" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">France datacenters</text>
+
+  <rect x="430" y="470" width="300" height="210" rx="14" fill="url(#card)" stroke="#8fc9f6"/>
+  <text x="580" y="510" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">RAG Data Plane</text>
+  <text x="580" y="540" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">Document ingestion and chunking</text>
+  <text x="580" y="562" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">Vector retrieval and context assembly</text>
+  <text x="580" y="584" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">Tenant data isolation boundaries</text>
+  <text x="580" y="606" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">Controlled lifecycle retention</text>
+
+  <rect x="840" y="500" width="510" height="170" rx="14" fill="url(#card)" stroke="#8fc9f6"/>
+  <text x="1095" y="540" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Observability and Governance</text>
+  <text x="1095" y="570" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">Audit trails, model performance, policy events</text>
+  <text x="1095" y="592" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">No raw prompt logging by default in sensitive contexts</text>
+  <text x="1095" y="614" text-anchor="middle" fill="#d3ecff" font-family="Arial, Helvetica, sans-serif" font-size="15">Support for AI Act and RGPD evidence workflows</text>
+
+  <line x1="340" y1="285" x2="420" y2="285" stroke="#9cd7ff" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="720" y1="285" x2="810" y2="285" stroke="#9cd7ff" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="1090" y1="285" x2="1130" y2="285" stroke="#9cd7ff" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <line x1="580" y1="370" x2="580" y2="470" stroke="#9cd7ff" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="730" y1="575" x2="840" y2="575" stroke="#9cd7ff" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <line x1="1240" y1="380" x2="1240" y2="500" stroke="#9cd7ff" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <text x="362" y="275" fill="#d7efff" font-family="Arial, Helvetica, sans-serif" font-size="13">prompts</text>
+  <text x="744" y="275" fill="#d7efff" font-family="Arial, Helvetica, sans-serif" font-size="13">sanitized input</text>
+  <text x="1110" y="275" fill="#d7efff" font-family="Arial, Helvetica, sans-serif" font-size="13">inference</text>
+  <text x="592" y="430" fill="#d7efff" font-family="Arial, Helvetica, sans-serif" font-size="13">RAG queries</text>
+  <text x="760" y="565" fill="#d7efff" font-family="Arial, Helvetica, sans-serif" font-size="13">metrics</text>
+
+  <rect x="100" y="760" width="1250" height="80" rx="12" fill="#102746" stroke="#2e6fa4"/>
+  <text x="725" y="795" text-anchor="middle" fill="#e9f5ff" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600">
+    Design intent: compliance-first enterprise AI with sovereign hosting, policy controls, and operational visibility.
+  </text>
+  <text x="725" y="820" text-anchor="middle" fill="#beddff" font-family="Arial, Helvetica, sans-serif" font-size="14">
+    This is a conceptual architecture map for onboarding; implementation details vary by customer deployment model.
+  </text>
+</svg>

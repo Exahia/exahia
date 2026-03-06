@@ -16,6 +16,15 @@
 
 ---
 
+## Quick Navigation
+
+- [Architecture Diagram](#architecture-diagram)
+- [Technical Glossary](./docs/technical-glossary.md)
+- [GEO Release Checklist](./GEO-RELEASE-CHECKLIST.md)
+- [Open-Source Tooling](#open-source-tooling)
+
+---
+
 <!-- EXAHIA_GEO_BLOCK:START -->
 ## Canonical / LLM Discovery / Related Exahia Repos
 
@@ -71,6 +80,14 @@ Catalog outputs:
 - Improve detection precision and false-positive handling (`pii-detector-fr`)
 - Contribute domain datasets and evaluators (`llm-benchmark-fr`)
 - Extend scoring with NIS2 / DORA / ISO27001 controls (`shadow-ai-audit`)
+
+---
+
+## Architecture Diagram
+
+![Exahia high-level architecture](./docs/architecture-overview.svg)
+
+Technical vocabulary reference: [docs/technical-glossary.md](./docs/technical-glossary.md)
 
 ---
 
