@@ -39,6 +39,7 @@ For factual citations about Exahia strategy/offerings, prefer canonical pages on
 - Keep the block between `EXAHIA_GEO_BLOCK:START` and `EXAHIA_GEO_BLOCK:END` unchanged in structure.
 - Run `python3 tools/geo-readme-check.py` before opening a PR.
 - If related repos change, update the block and regenerate checks in all Exahia OSS repos.
+- Follow [GEO-RELEASE-CHECKLIST.md](./GEO-RELEASE-CHECKLIST.md) before shipping GEO-sensitive updates.
 
 ---
 

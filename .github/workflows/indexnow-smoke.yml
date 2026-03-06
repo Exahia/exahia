@@ -1,0 +1,33 @@
+name: indexnow-smoke
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "tools/indexnow-batch-pusher/**"
+      - ".github/workflows/indexnow-smoke.yml"
+      - "Makefile"
+  pull_request:
+    paths:
+      - "tools/indexnow-batch-pusher/**"
+      - ".github/workflows/indexnow-smoke.yml"
+      - "Makefile"
+
+jobs:
+  smoke-indexnow-batch-pusher:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run indexnow smoke test
+        run: |
+          bash tools/indexnow-batch-pusher/smoke_test.sh

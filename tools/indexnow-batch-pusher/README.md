@@ -54,3 +54,11 @@ python3 tools/indexnow-batch-pusher/indexnow_batch_pusher.py \
 ```bash
 python3 -m unittest discover -s tools/indexnow-batch-pusher/tests -p "test_*.py"
 ```
+
+## Smoke test (CI parity)
+
+Run the same deterministic smoke test used in GitHub Actions:
+
+```bash
+bash tools/indexnow-batch-pusher/smoke_test.sh
+```

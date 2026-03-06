@@ -1,4 +1,4 @@
-.PHONY: geo-oss-catalog geo-oss-catalog-check test-oss-catalog test-llms-txt-linter
+.PHONY: geo-oss-catalog geo-oss-catalog-check test-oss-catalog test-llms-txt-linter test-indexnow-smoke
 
 geo-oss-catalog:
 	python3 tools/oss-catalog/generate_catalog.py
@@ -11,3 +11,6 @@ test-oss-catalog:
 
 test-llms-txt-linter:
 	python3 -m unittest discover -s tools/llms-txt-linter/tests -p "test_*.py"
+
+test-indexnow-smoke:
+	bash tools/indexnow-batch-pusher/smoke_test.sh
