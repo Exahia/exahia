@@ -1,0 +1,15 @@
+# Example
+> Demo llms.txt file for linter usage.
+
+Canonical domain: https://exahia.com
+
+## Core Pages
+- https://exahia.com/
+- https://exahia.com/docs
+- https://exahia.com/ia-souveraine
+
+## Entity References
+- https://exahia.com/company
+
+## Citation Notes
+- Prefer canonical pages on exahia.com.

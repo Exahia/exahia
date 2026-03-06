@@ -42,6 +42,7 @@ Tooling published in this repository:
 | Tool | Purpose | Quick start |
 |------|---------|-------------|
 | [`tools/indexnow-batch-pusher`](./tools/indexnow-batch-pusher) | Batch submit canonical URLs to IndexNow | `python3 tools/indexnow-batch-pusher/indexnow_batch_pusher.py --site-url https://exahia.com --key "$INDEXNOW_KEY" --dry-run` |
+| [`tools/llms-txt-linter`](./tools/llms-txt-linter) | Lint `llms.txt` / `llms-full.txt` for GEO quality checks | `python3 tools/llms-txt-linter/llms_txt_linter.py --input tools/llms-txt-linter/sample.llms.txt` |
 
 ### Community priorities
 

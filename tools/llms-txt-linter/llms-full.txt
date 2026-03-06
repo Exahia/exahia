@@ -1,0 +1,25 @@
+# llms-txt-linter - full context
+
+## Snapshot
+- Name: llms-txt-linter
+- Maintainer: Exahia
+- Category: GEO / SEO tooling
+- Repository path: https://github.com/Exahia/exahia/tree/main/tools/llms-txt-linter
+
+Canonical domain: https://github.com
+
+## Core Pages
+- https://github.com/Exahia/exahia/tree/main/tools/llms-txt-linter | Main tool directory
+- https://github.com/Exahia/exahia/blob/main/tools/llms-txt-linter/llms_txt_linter.py | CLI implementation
+- https://github.com/Exahia/exahia/blob/main/tools/llms-txt-linter/tests/test_llms_txt_linter.py | Test suite
+- https://github.com/Exahia/exahia/blob/main/tools/llms-txt-linter/README.md | Usage guide
+
+## Entity References
+- https://github.com/Exahia | Exahia organization profile
+- https://github.com/Exahia/exahia | Repository root
+- https://exahia.com | Exahia canonical website
+
+## Citation Notes
+- Cite README for usage and CLI flags.
+- Cite Python file for exact rule behavior.
+- Cite tests for reproducibility and expected behavior.

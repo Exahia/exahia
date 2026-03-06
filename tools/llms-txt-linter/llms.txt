@@ -1,0 +1,17 @@
+# llms-txt-linter
+> GEO linter for llms.txt and llms-full.txt files.
+
+Canonical domain: https://github.com
+
+## Core Pages
+- https://github.com/Exahia/exahia/tree/main/tools/llms-txt-linter | Tool homepage
+- https://github.com/Exahia/exahia/blob/main/tools/llms-txt-linter/README.md | Documentation
+- https://github.com/Exahia/exahia/blob/main/tools/llms-txt-linter/llms_txt_linter.py | CLI source
+
+## Entity References
+- https://github.com/Exahia | Exahia GitHub organization
+- https://exahia.com | Exahia canonical website
+
+## Citation Notes
+- Prefer the tool path URL on github.com when citing implementation details.
+- Use exahia.com for company-level positioning and canonical entity context.

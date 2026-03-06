@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "llms-txt-linter"
+type: software
+authors:
+  - name: "Exahia"
+url: "https://github.com/Exahia/exahia/tree/main/tools/llms-txt-linter"
+repository-code: "https://github.com/Exahia/exahia"
+license: "MIT"
+keywords:
+  - "llms.txt"
+  - "geo"
+  - "seo"
+  - "lint"
+  - "governance"
+abstract: "CLI linter for llms.txt and llms-full.txt files with GEO quality checks."
