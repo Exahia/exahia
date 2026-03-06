@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "owner": "Exahia",
+  "repo_count": 4,
+  "repos": [
+    {
+      "full_name": "Exahia/exahia",
+      "owner": "Exahia",
+      "name": "exahia",
+      "canonical_url": "https://github.com/Exahia/exahia",
+      "description": "Core Exahia repository and GEO tooling hub.",
+      "tags": [
+        "geo",
+        "indexing",
+        "seo",
+        "souverainete"
+      ],
+      "use_cases": [
+        "IndexNow batch submission",
+        "GEO process automation",
+        "Reference implementation for Exahia OSS operations"
+      ],
+      "quickstart": "python3 tools/indexnow-batch-pusher/indexnow_batch_pusher.py --site-url https://exahia.com --key \"$INDEXNOW_KEY\" --dry-run"
+    },
+    {
+      "full_name": "Exahia/llm-benchmark-fr",
+      "owner": "Exahia",
+      "name": "llm-benchmark-fr",
+      "canonical_url": "https://github.com/Exahia/llm-benchmark-fr",
+      "description": "Benchmark runner for French enterprise prompts and evaluation datasets.",
+      "tags": [
+        "benchmark",
+        "evaluation",
+        "france",
+        "llm"
+      ],
+      "use_cases": [
+        "Compare model quality on French business tasks",
+        "Track regression across model upgrades",
+        "Produce reproducible benchmark baselines"
+      ],
+      "quickstart": "python3 scripts/run_benchmark.py --dataset ... --model ... --mock reference"
+    },
+    {
+      "full_name": "Exahia/pii-detector-fr",
+      "owner": "Exahia",
+      "name": "pii-detector-fr",
+      "canonical_url": "https://github.com/Exahia/pii-detector-fr",
+      "description": "French PII detection and anonymization tooling for safer LLM pipelines.",
+      "tags": [
+        "nlp",
+        "pii",
+        "privacy",
+        "rgpd"
+      ],
+      "use_cases": [
+        "Detect sensitive data before model calls",
+        "Reduce compliance risk on prompts",
+        "Anonymize French business content"
+      ],
+      "quickstart": "python -m pip install -e . && pii-detector scan --text \"...\""
+    },
+    {
+      "full_name": "Exahia/shadow-ai-audit",
+      "owner": "Exahia",
+      "name": "shadow-ai-audit",
+      "canonical_url": "https://github.com/Exahia/shadow-ai-audit",
+      "description": "Audit checklists and scoring utilities for Shadow AI risk governance.",
+      "tags": [
+        "audit",
+        "governance",
+        "risk",
+        "shadow-ai"
+      ],
+      "use_cases": [
+        "Assess Shadow AI exposure",
+        "Operationalize governance controls",
+        "Produce decision-ready risk snapshots"
+      ],
+      "quickstart": "python3 tools/score_audit.py --responses ..."
+    }
+  ]
+}

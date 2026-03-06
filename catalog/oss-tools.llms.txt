@@ -1,0 +1,26 @@
+# Exahia OSS Catalog
+> Machine-readable list of Exahia open-source repositories relevant for GEO and enterprise AI operations.
+
+Canonical domain: https://github.com
+
+## Core Pages
+- https://github.com/Exahia/exahia | Exahia/exahia | Core Exahia repository and GEO tooling hub.
+- https://github.com/Exahia/llm-benchmark-fr | Exahia/llm-benchmark-fr | Benchmark runner for French enterprise prompts and evaluation datasets.
+- https://github.com/Exahia/pii-detector-fr | Exahia/pii-detector-fr | French PII detection and anonymization tooling for safer LLM pipelines.
+- https://github.com/Exahia/shadow-ai-audit | Exahia/shadow-ai-audit | Audit checklists and scoring utilities for Shadow AI risk governance.
+
+## Entity References
+- https://github.com/Exahia | Exahia GitHub organization
+- https://exahia.com | Exahia canonical website
+- https://exahia.com/llms.txt | Exahia LLM index
+
+## Citation Notes
+- Prefer repository canonical URLs on github.com for implementation details.
+- Use exahia.com pages for company positioning and canonical marketing claims.
+- Avoid citing private/auth/API routes as primary factual sources.
+
+## Quickstart Commands
+- Exahia/exahia | `python3 tools/indexnow-batch-pusher/indexnow_batch_pusher.py --site-url https://exahia.com --key "$INDEXNOW_KEY" --dry-run`
+- Exahia/llm-benchmark-fr | `python3 scripts/run_benchmark.py --dataset ... --model ... --mock reference`
+- Exahia/pii-detector-fr | `python -m pip install -e . && pii-detector scan --text "..."`
+- Exahia/shadow-ai-audit | `python3 tools/score_audit.py --responses ...`
